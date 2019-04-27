@@ -28,9 +28,9 @@ new issue。
 
 回到本地端要做的事情
 
-1.指令`git check out master`： 切換回 master 的分支。
+1.指令`git checkout master`： 切換回 master 的分支。
 2.指令`git pull origin master`： 拉下 merge 完的分支。
-3.指令`git merge -d　week1`：把 week1 的分支刪除。
+3.指令`git branch -d　week1`：把 week1 的分支刪除。
 
 這樣作業就完成囉～
 
