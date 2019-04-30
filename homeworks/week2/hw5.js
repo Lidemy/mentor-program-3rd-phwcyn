@@ -8,11 +8,11 @@ function join(arr, concatStr) {
 }
 
 function repeat(str, times) {
-  let result = '';
+  let repeatstr = '';
   for (let i = 0; i < times; i += 1) {
-    result += str;
+    repeatstr += str;
   }
-  return result;
+  return repeatstr;
 }
 console.log(join([1, 2, 3], ''));
 console.log(join('a', '!'));
