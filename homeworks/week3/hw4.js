@@ -1,5 +1,4 @@
-function isPalindromes(str) {
-  console.log(str);
+function parlindrome(str) {
+  return str === str.split('').reverse().join('');
 }
-
-module.exports = isPalindromes;
+module.exports = parlindrome;
