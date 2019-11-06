@@ -15,7 +15,7 @@
 
 2. 為什麼要了解盒模型？一般排版時只考量到「內容」，也就是想要呈現給瀏覽者的實質資訊，像是文字以及圖像等。但是在網頁上，與其他元素並排時，就需要用到邊距、留白等概念，能夠保持版面的美觀。
 
-用圖說明：
+用圖來說明：
 ![](https://i.imgur.com/KTc6g0c.gif)
  
 圖片來源：https://www.runoob.com/images/box-model.gif
@@ -117,12 +117,13 @@ display 是指元素在網頁上的陳列方式。
 
 
 參考資料：
-1.[	CSS 基础框盒模型介绍](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+
+1.[CSS 基础框盒模型介绍](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 （介紹了基本盒模型，但是比較沒有觀念的釐清，可能還是會對各種元素的運作之間不清楚）
 
-2. [好用的CSS box-sizing](https://www.zeusdesign.com.tw/article/6-%E5%A5%BD%E7%94%A8%E7%9A%84%20CSS%20box-sizing.html) 
+2.[好用的CSS box-sizing](https://www.zeusdesign.com.tw/article/6-%E5%A5%BD%E7%94%A8%E7%9A%84%20CSS%20box-sizing.html) 
 （介紹 box-sizing用法）
 
-3. [【DAY12】盒模型 box model](https://ithelp.ithome.com.tw/articles/10194997)
+3.[【DAY12】盒模型 box model](https://ithelp.ithome.com.tw/articles/10194997)
 
 4.[CSS Position 基本觀念](https://tpu.thinkpower.com.tw/tpu/articleDetails/1276)
