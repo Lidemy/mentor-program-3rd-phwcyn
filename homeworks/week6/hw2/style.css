@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: serif;
+}
+
+.clap {
+    position: fixed;
+    border: 1px solid #b3bfc9;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    text-align: center; 
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+
+.clap:hover{
+   cursor: pointer;
+   border-color:#2a2c2e;
+}
+
+.clapbutton {
+    margin-top: 12px;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 24px;
+    padding: 30px 0px 10px 0px;
+
+}
+
+.title~p {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .clap {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .title~p {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
